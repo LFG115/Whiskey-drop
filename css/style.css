@@ -2,8 +2,19 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-.alert-container {
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
 }
 
 .callout-container {
@@ -36,6 +47,18 @@ body{
 
 .features-container{
 
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
 }
 
 /* Block dividers */
@@ -130,3 +153,4 @@ body{
     border-color: #df4929;
     color: white;
 }
+
